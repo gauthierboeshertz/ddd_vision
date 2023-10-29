@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@eu-ms-016-43>
+Subject: Job 217678951: <conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch> in cluster <euler> Exited
+
+Job <conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch> was submitted from host <eu-login-09> by user <gboeshertz> in cluster <euler> at Sat May  7 19:04:24 2022
+Job was executed on host(s) <eu-ms-016-43>, in queue <normal.4h>, as user <gboeshertz> in cluster <euler> at Sat May  7 19:04:40 2022
+</cluster/home/gboeshertz> was used as the home directory.
+</cluster/project/infk/courses/252-0579-00L/group35/ICON/lib/pymaf/utils> was used as the working directory.
+Started at Sat May  7 19:04:40 2022
+Terminated at Sat May  7 19:04:48 2022
+Results reported at Sat May  7 19:04:48 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.74 sec.
+    Max Memory :                                 65 MB
+    Average Memory :                             64.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               959.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                10
+    Run time :                                   33 sec.
+    Turnaround time :                            24 sec.
+
+The output (if any) follows:
+
+Collecting package metadata (current_repodata.json): ...working... failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/pytorch/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+'https://conda.anaconda.org/pytorch/linux-64'
+
+
